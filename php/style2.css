@@ -1,0 +1,35 @@
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.background {
+    background-image: url('cafe.jpg'); /* correct path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; /* optional */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 20px;           /* top and left padding */
+    height: 100vh; 
+}
+
+.content{
+    text-align: left;
+   
+}
+section div button{
+    
+    font-size:  16px;
+    font-weight:  550;
+    padding: 4px 12px;
+    border:  2px solid black; 
+    border-radius: 5px ;
+    outline: none ;
+    
+}
+section div p{
+    color: rgb(233, 224, 224);
+    font-size: 20px;
+}

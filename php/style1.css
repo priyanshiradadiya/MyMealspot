@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #edecf2;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-item img {
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.image-item p {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
